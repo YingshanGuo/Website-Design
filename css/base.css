@@ -1,0 +1,53 @@
+.item{
+  padding: 40px;
+  clear: both;
+}
+.item >div{
+    max-width:1180px;
+    /*border: 1px solid green;*/
+}
+.item-header{
+    position:relative;
+    padding: 40px;
+}
+.item-header span{
+    padding-bottom: 5px;
+    margin: 0 auto;
+    position:absolute;
+    text-align: center;
+    display: flex;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top:50%;
+
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 2;
+    margin-bottom: 20px;
+    background: url(../images/feature/title_hr.png) bottom no-repeat;
+}
+.col-lg-1_5{
+    position: relative;
+    min-height: 1px;
+    padding: 5px;
+    float: left;
+    width: 20%;
+}
+.m-auto{
+    margin: 0 auto;
+}
+.greyBg{
+    background: #eeeeee;
+}
+.whiteBg{
+    background:#fff;
+}
+.back-to-top{
+    border: 1px solid #eee;
+    padding:10px 20px;
+    position:fixed;
+    color:#fff;
+    bottom:20px;
+    right:20px;
+    background:#ccc;
+}
